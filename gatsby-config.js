@@ -8,12 +8,13 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-wordpress",
       options: {
         /*
          * De volledige URL van je Headless WordPress site's GraphQL API.
-         * Voorbeeld : "http://mos-agency.local/graphql."
+         * Voorbeeld : "https://www.example-site.com/graphql"
          */
         url: "http://mos-agency.local/graphql",
       },
